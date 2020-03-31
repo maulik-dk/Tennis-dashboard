@@ -21,6 +21,7 @@ import urllib.parse
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
+"""
 scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
 client = gspread.authorize(creds)
@@ -43,6 +44,10 @@ server=app.server
 auth = dash_auth.BasicAuth(
     app,
     babolatsecurity)
+"""
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+app=dash.Dash(__name__, external_stylesheets=external_stylesheets)  
 
 url='https://github.com/Saahil28/babolat/blob/master/Tennis5.xlsx?raw=true'
 xl=pd.ExcelFile(url)
