@@ -90,7 +90,7 @@ Equipments={'Tennis Balls': ['Total Balls','Premium (Dozens)','Standard (Dozens)
 'Tennis Racquets': ['Adult Racquets','Junior Racquets','Total Value','Recreational','Performance','Adult Value','Junior Value','Recreational 1','Recreational 2','Total Racquets'],
 'Tennis String': ['Sets (Total)','Polyester','Synthetic','Multifilament','Natural Gut','Hybrid']}
 
-Time_Frame={"Annual","Half","Quarters"}
+Time_Frame={"Annual","Half-Year","Quarters"}
 
 Measures={'Units','Value','Currency_Share_Percentage','Unit_Share_Percentage','Average_Price'}
 
