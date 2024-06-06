@@ -35,7 +35,7 @@ wilsonlog=[d for d in list_of_hashes if d['brand'] =='wilson']
 wilsonsecurity={x['username']:x['password']for x in wilsonlog}
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-
+##Please check this block till 51.
 app=dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.scripts.config.serve_locally = True # needed to upload images
 app.config.suppress_callback_exceptions = True # needed to create multiple pages
@@ -48,7 +48,7 @@ url='https://github.com/Saahil28/babolat/blob/master/Tennis5.xlsx?raw=true'
 xl=pd.ExcelFile(url)
 Total=xl.parse('DATA')# taking each excel tab and putting it into its own dataframe
 
-
+## ends here
 
 def set_half(row):
     if row["Quarter"] == "Q1":
